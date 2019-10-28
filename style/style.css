@@ -1,21 +1,25 @@
 *{
     box-sizing: border-box;
 }
-.wrapper {
+.body {
     font-family: 'Rubik', sans-serif;
+    margin: auto;
 }
 
 .header{
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
+    align-items: center;
 }
 
 .img {
     width: 155px;
 }
+
+.header__nav ul li{
+    display: inline-block;
+  }
 
 .main-content {
     background-color:#3CDBC0;

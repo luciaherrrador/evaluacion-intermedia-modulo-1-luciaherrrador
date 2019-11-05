@@ -28,15 +28,13 @@ ul{
 
  .header_logo{
   width:100%;
-  max-width: 155px;
+  display: flex;
+  justify-content: space-between;
  }
 
- .header__nav,.ul,.li{
-  display:inline
-}
 
-.header__nav,.ul,.li,.a{
-  display:inline-block;
+.header__nav ul li a{
+  display:inline;
   padding: 10px;
   text-transform: uppercase;
 }
@@ -66,10 +64,16 @@ ul{
     .header {
       flex-direction: row;
       justify-content: space-between;
+      align-items: center;
       padding: 20px 20px 20px 30px;
     }
     .header__nav>ul>li:last-child>a{
       padding-right:0px;
+    }
+    ul{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
     }
   }
   
